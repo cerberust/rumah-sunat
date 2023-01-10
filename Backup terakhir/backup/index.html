@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- shadow-lg -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="/img/png-transparent-computer-icons-woman-avatar-woman-people-woman-user.png-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <!-- *Style CSS Customize -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- *Favicon Photo -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- *Tailwind CSS Framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Bootstrap v4.6 CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Rumah Sunat Firdaus</title>
+</head>
+
+<body>
+    <embed style="position: absolute; z-index: -1;" src="vector/Vector 10.svg" type="image/svg+xml">
+    <embed style="position: absolute; z-index: -1; right: 10vw;" src="vector/Vector 11.svg" type="image/svg+xml">
+    <embed style="position: absolute; z-index: -1; top: 30vw; right: 0px;" src="vector/Vector 12.svg" type="image/svg+xml">
+    <embed style="position: absolute; z-index: -1; right: 0px;" src="vector/Vector 13.svg" type="image/svg+xml">
+    <!-- ?ALL SVG Vector in Background -->
+    <nav class="bg-[#8ECAE6] border-b-8 border-b-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <img src="/img/navi-log.png" alt="Logo" class="h-12 mr-2">
+                        </a>
+                    </div>
+                    <!-- Primary Navbar items -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="" class="py-4 px-2 text-[#000] font-bold ">Home</a>
+                        <a href="" class="py-4 px-2 text-[#000] font-bold">Profil</a>
+                        <a href="" class="py-4 px-2 text-[#000] font-bold"><div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              layanan
+                            </button>
+                            <div class="dropdown-menu">
+                              <button class="dropdown-item" type="button">Action</button>
+                              <button class="dropdown-item" type="button">Another action</button>
+                              <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                          </div></a>
+                        <!-- TODO:dl<a href=""
+                            class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact
+                            Us</a> -->
+                    </div>
+                </div>
+                <!-- Secondary Navbar items -->
+                <div class="hidden md:flex items-center space-x-3 ">
+                    <a href="" class="py-3 px-8 bg-[#fff] text-[#000] font-bold rounded-full">Daftar Online</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class=" w-6 h-6 text-gray-500 hover:text-green-500 " x-show="!showMenu" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li class="active"><a href="index.html"
+                        class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+                <li><a href="#services"
+                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Profil</a></li>
+                <li><a href="#about"
+                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                              layanan
+                            </button>
+                            <div class="dropdown-menu">
+                              <button class="dropdown-item" type="button">Action</button>
+                              <button class="dropdown-item" type="button">Another action</button>
+                              <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                          </div>
+                    </a></li>
+                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Daftar
+                        Online</a></li>
+            </ul>
+        </div>
+        <script>
+            const btn = document.querySelector("button.mobile-menu-button");
+            const menu = document.querySelector(".mobile-menu");
+
+            btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+        </script>
+    </nav>
+    <!-- *Carousel Item -->
+    <div class="container">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel-pic.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Gambar Slide Yang Pertama</h5>
+							<p>Gambar pemandangan sungai.</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-pic.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Gambar Slide Yang Kedua</h5>
+							<p>Gambar pemandangan sawah di desa.</p> -->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-pic.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!-- <h5>Gambar Slide Yang Ketiga</h5>
+							<p>Gambar pemandangan taman belakang rumah.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- *Our Serve -->
+    <div class="container ">
+        <div class="rect-4">
+            <embed style="position: absolute; left: 0; top: 0; z-index: -1;" src="vector/Vector 8.svg"
+                type="image/svg+xml">
+            <embed style="position: absolute; right: 0; top: 0; z-index: -1;" src="vector/Vector 9.svg"
+                type="image/svg+xml">
+            <h2 class="text-5xl header-OS">Layanan Kami</h2>
+            <p style="z-index: 2;">Kami Memberikan pelayanan yang terbaik untuk putra putri anda tentu saja<br>
+                dengan pelayanan yang cepat dan juga ditangani oleh<br> dokter dengan ahli
+                di bidang yang tepat, selain sunat anak kami juga memberikan pelayanan berupa:</p>
+            <ul class="flex flex-row justify-around">
+                <li> <!-- Sunat Bayi
+                    -->
+                    <figure style="z-index: 2;" class="flex flex-col">
+                        <img class="" width="150vw" src="/img/Untitled-1-01__1_-removebg-preview.png" alt="">
+                        <figcaption">Sunat Bayi
+                            </figcaption>
+                            </img>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="flex flex-col">
+                        <img class="" width="150vw" src="/img/Untitled-1-03__1_-removebg-preview.png" alt="">
+                        <figcaption>Sunat Anak
+                        </figcaption>
+                        </img>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="flex flex-col">
+                        <img class="" width="150vw" src="/img/Untitled-1-05__1_-removebg-preview.png" alt="">
+                        <figcaption>Sunat Dewasa
+                        </figcaption>
+                        </img>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="flex flex-col">
+                        <img class="" width="150vw" src="/img/Untitled-1-04__1_-removebg-preview.png" alt="">
+                        <figcaption>Sunat Gemuk
+                        </figcaption>
+                        </img>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="flex flex-col">
+                        <img class="" width="150vw" src="img/Untitled-1-07__1_-removebg-preview.png" alt="">
+                        <figcaption>Sunat Premium
+                        </figcaption>
+                        </img>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="flex flex-col">
+                        <img class="" width="150vw" src="img/Untitled-1-02__1_-removebg-preview.png" alt="">
+                        <figcaption>Sunat Dirumah
+                        </figcaption>
+                        </img>
+                    </figure>
+                </li>
+            </ul>
+            <embed style="position: absolute; right: 30px; bottom: 30px;" src="vector/corner-square.svg"
+                type="image/svg+xml">
+        </div>
+    </div>
+    <!-- *Reason -->
+    <div class="container">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="1" d="M0,224L48,234.7C96,245,192,267,288,234.7C384,203,480,117,576,85.3C672,53,768,75,864,101.3C960,128,1056,160,1152,186.7C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+          </svg> -->
+        <svg>
+            <embed src="/vector/Vector 14.svg" style="position: absolute; left: 0;" type="">
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 320" style="margin: auto;" width="1179">
+            <!-- d="M0,288L80,245.3C160,203,320,117,480,117.3C640,117,800,203,960,229.3C1120,256,1280,224,1360,208L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" -->
+            <!-- d="M0,224L48,234.7C96,245,192,267,288,234.7C384,203,480,117,576,85.3C672,53,768,75,864,101.3C960,128,1056,160,1152,186.7C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" -->
+            <path fill="#8ECAE6" fill-opacity="1"
+                d="M0,224L48,234.7C96,245,192,267,288,234.7C384,203,480,117,576,85.3C672,53,768,75,864,101.3C960,128,1056,160,1152,186.7C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+            <div class="header-rect-5">
+                <figure class="flex flex-row">
+                    <img src="/img/Untitled-1-06__1_-removebg-preview.png" alt="">
+                    <figcaption class="figr-header">8 Alasan</figcaption>
+                </figure>
+            </div>
+            <div class="rect-5" style="display: block; margin:auto;">
+                <!-- <embed style="position: absolute; z-index: 1;" src="/vector/circle-scatter-haikei (1).svg" type="image/svg+xml"> -->
+                <embed class="remembed" src="/vector/Vector 17.svg" type="image/svg+xml">
+                <ul style="z-index: 2;" class="flex-col flex">
+                    <li class="li-rect-5"><span class=""> Berpengalaman Sejak Tahun 2006 </span></li>
+                    <li class="li-rect-5"><span class=""> Menggunakan Teknologi sunat terbaru Dr. M Optical Maser
+                        </span></li>
+                    <li class="li-rect-5"><span class=""> Proses Sunat Lebih Cepat dan Tidak Sakit </span></li>
+                    <li class="li-rect-5"><span class=""> Melayani Sunat dan Perawatan hingga sembuh </span></li>
+                    <li class="li-rect-5"><span class=""> Sunat tanpa jarum suntik </span></li>
+                    <li class="li-rect-5"><span class=""> Sunat tanpa perban </span></li>
+                    <li class="li-rect-5"><span class=""> Sunat bisa dilakukan dimana saja </span></li>
+                    <li class="li-rect-5"><span class=""> Sunat bisa dilakukan kapan saja </span></li>
+                </ul>
+            </div>
+    </div>
+    <!-- Testimony -->
+    <div class="container my-5">
+        <h2 class="testy">Testimoni kami</h2>
+        <span class="">Apa kata mereka tentang pelayanan dan perawatan yang kami sediakan</span>
+        <div class="flex flex-row">
+            <figure class="flex flex-col"><img width="300px"
+                    src="/img/png-transparent-computer-icons-woman-avatar-woman-people-woman-user.png" alt="" class="">
+                <figcaption class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, saepe.</figcaption>
+
+            </figure>
+            <figure class="flex flex-col"><img width="300px"
+                    src="/img/png-transparent-computer-icons-woman-avatar-woman-people-woman-user.png" alt="" class="">
+                <figcaption class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, saepe.</figcaption>
+
+            </figure>
+            <!-- <figure class="flex flex-col"><img width="300px" src="/img/png-transparent-computer-icons-woman-avatar-woman-people-woman-user.png" alt="" class=""><figcaption class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, saepe.</figcaption> -->
+
+
+        </div>
+        <div class="flex flex-row">
+            <!-- </figure> -->
+            <figure class="flex flex-col"><img width="300px"
+                    src="/img/png-transparent-computer-icons-woman-avatar-woman-people-woman-user.png" alt="" class="">
+                <figcaption class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, saepe.</figcaption>
+
+            </figure>
+            <figure class="flex flex-col"><img width="300px"
+                    src="/img/png-transparent-computer-icons-woman-avatar-woman-people-woman-user.png" alt="" class="">
+                <figcaption class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, saepe.</figcaption>
+
+            </figure>
+        </div>
+    </div>
+
+    <!-- *Lokasi kami -->
+    <div class="container" style=" display: flex; justify-content: center;">
+        <p>Kami berada di :</p>
+        <div style="width: 100%"><iframe width="50%^" height="200" frameborder="0" scrolling="no" marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jl.%20Otista%20No.179%20B,%20Pasawahan,%20Kec.%20Tarogong%20Kaler,%20Kabupaten%20Garut,%20Jawa%20Barat%2044151+(My%20Business%20Name)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                    href="https://www.maps.ie/distance-area-calculator.html">distance maps</a></iframe></div>
+    
+    </div>
+    
+
+    <!-- Sticky Whatsapp -->
+    <div class="Op-admin-whatsapp">
+        <a href="">
+            <button class="btn-wa"><span></span>
+                <p data-start="good luck!" data-text="Di Whatsapp" data-title="Hubungi kami"></p>
+            </button>
+        </a>
+    </div>
+    <!-- Bootstrap v4.6 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
