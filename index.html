@@ -9,7 +9,7 @@
     <meta name="description" content="">
 
     <!-- *Style CSS Customize -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- *Favicon Photo -->
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- *Tailwind CSS Framework -->
@@ -21,7 +21,8 @@
 </head>
 
 <body>
-    <embed style="position: absolute; z-index: -1;" src="vector/Vector 10.svg" type="image/svg+xml">
+    <img src="vector/Vector 10.svg" style="position: absolute; z-index: -1;" alt="">
+    <!-- <embed style="position: absolute; z-index: -1;" src="vector/Vector 10.svg" type="image/svg+xml"> -->
     <embed style="position: absolute; z-index: -1; right: 10vw;" src="vector/Vector 11.svg" type="image/svg+xml">
     <embed style="position: absolute; z-index: -1; top: 30vw; right: 0px;" src="vector/Vector 12.svg" type="image/svg+xml">
     <embed style="position: absolute; z-index: -1; right: 0px;" src="vector/Vector 13.svg" type="image/svg+xml">
@@ -33,7 +34,7 @@
                     <div>
                         <!-- Website Logo -->
                         <a href="#" class="flex items-center py-4 px-2">
-                            <img src="img/navi-log.png" alt="Logo" class="h-12 mr-2">
+                            <img src="/img/navi-log.png" alt="Logo" class="h-12 mr-2">
                         </a>
                     </div>
                     <!-- Primary Navbar items -->
@@ -42,14 +43,17 @@
                         <a href="" class="py-4 px-2 text-[#000] font-bold">Profil</a>
                         <a href="" class="py-4 px-2 text-[#000] font-bold">
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown"
                                     aria-expanded="false">
                                     layanan
                                 </button>
                                 <div class="dropdown-menu">
-                                    <button class="dropdown-item" type="button">Action</button>
-                                    <button class="dropdown-item" type="button">Another action</button>
-                                    <button class="dropdown-item" type="button">Something else here</button>
+                                    <button class="dropdown-item" type="button">Sunat Bayi</button>
+                                    <button class="dropdown-item" type="button">Sunat Anak</button>
+                                    <button class="dropdown-item" type="button">Sunat Dewasa</button>
+                                    <button class="dropdown-item" type="button">Sunat Gemuk</button>
+                                    <button class="dropdown-item" type="button">Sunat Premium</button>
+                                    <button class="dropdown-item" type="button">Sunat Dirumah</button>
                                 </div>
                             </div>
                         </a>
@@ -78,23 +82,26 @@
         <div class="hidden mobile-menu">
             <ul class="">
                 <li class="active"><a href="index.html"
-                        class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
+                        class="block text-sm px-2 py-4 text-white font-semibold">Home</a></li>
                 <li><a href="#services"
-                        class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Profil</a></li>
-                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">
+                        class="block text-sm px-2 py-4 transition duration-300">Profil</a></li>
+                <li><a href="#about" class="block text-sm px-2 py-4 transition duration-300">
                         <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                            <button class="dropdown-toggle" type="button" data-toggle="dropdown"
                                 aria-expanded="false">
                                 layanan
                             </button>
                             <div class="dropdown-menu">
-                                <button class="dropdown-item" type="button">Action</button>
-                                <button class="dropdown-item" type="button">Another action</button>
-                                <button class="dropdown-item" type="button">Something else here</button>
+                                <button class="dropdown-item" type="button">Sunat Bayi</button>
+                                <button class="dropdown-item" type="button">Sunat Anak</button>
+                                <button class="dropdown-item" type="button">Sunat Dewasa</button>
+                                <button class="dropdown-item" type="button">Sunat Gemuk</button>
+                                <button class="dropdown-item" type="button">Sunat Premium</button>
+                                <button class="dropdown-item" type="button">Sunat Dirumah</button>
                             </div>
                         </div>
                     </a></li>
-                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Daftar
+                <li><a href="#about" class="block text-sm px-2 py-4 transition duration-300">Daftar
                         Online</a></li>
             </ul>
         </div>
@@ -152,61 +159,61 @@
     </div>
     <!-- *Our Serve -->
     <div class="container">
-        <div class="relative" style="background-color: #C73C3C; padding: 50px;">
+        <div class="relative text-white" style="background-color: #C73C3C; padding: 50px;">
             
             <embed class="embed-media" style="position: absolute; left: 0; top: 0; z-index: 1;" src="vector/Vector 8.svg"
                 type="">
             <embed class="embed-media" style="position: absolute; right: 0; top: 0; z-index: 1;" src="vector/Vector 9.svg"
                 type="">
-            <h2 class="text-5xl header-OS text-center sm:text-left">Layanan Kami</h2>
-            <p class="text-center sm:text-left">Kami Memberikan pelayanan yang terbaik untuk putra putri anda tentu
+            <h2 class="text-5xl header-OS text-center sm:text-left" style="font-family: 'Comfortaa', cursive;">Layanan Kami</h2>
+            <p class="text-center sm:text-left" style="font-family: 'Montserrat', cursive;">Kami Memberikan pelayanan yang terbaik untuk putra putri anda tentu
                 saja<br>
                 dengan pelayanan yang cepat dan juga ditangani oleh<br> dokter dengan ahli
                 di bidang yang tepat, selain sunat anak kami juga memberikan pelayanan berupa:</p>
-            <ul class="flex flex-col sm:flex-row justify-around">
+            <ul class="flex flex-col sm:flex-row justify-around" style="font-family: 'Montserrat', cursive;">
                 <li class="mb-4 sm:mb-0 sm:mr-4">
-                    <figure class="flex flex-col">
-                        <img class="" width="150vw" src="img/Untitled-1-01__1_-removebg-preview.png" alt="">
+                    <figure class="text-center flex flex-col">
+                        <img class="m-auto" width="150vw" src="/img/Untitled-1-01__1_-removebg-preview.png" alt="">
                         <figcaption>Sunat Bayi
                         </figcaption>
                         </img>
                     </figure>
                 </li>
                 <li class="mb-4 sm:mb-0 sm:mr-4">
-                    <figure class="flex flex-col">
-                        <img class="" width="150vw" src="img/Untitled-1-03__1_-removebg-preview.png" alt="">
+                    <figure class="text-center flex flex-col">
+                        <img class="m-auto" width="150vw" src="/img/Untitled-1-03__1_-removebg-preview.png" alt="">
                         <figcaption>Sunat Anak
                         </figcaption>
                         </img>
                     </figure>
                 </li>
                 <li class="mb-4 sm:mb-0 sm:mr-4">
-                    <figure class="flex flex-col">
-                        <img class="" width="150vw" src="img/Untitled-1-05__1_-removebg-preview.png" alt="">
+                    <figure class="text-center flex flex-col">
+                        <img class="m-auto" width="150vw" src="/img/Untitled-1-05__1_-removebg-preview.png" alt="">
                         <figcaption>Sunat Dewasa
                         </figcaption>
                         </img>
                     </figure>
                 </li>
                 <li class="mb-4 sm:mb-0 sm:mr-4">
-                    <figure class="flex flex-col">
-                        <img class="" width="150vw" src="img/Untitled-1-04__1_-removebg-preview.png" alt="">
+                    <figure class="text-center flex flex-col">
+                        <img class="m-auto" width="150vw" src="/img/Untitled-1-04__1_-removebg-preview.png" alt="">
                         <figcaption>Sunat Gemuk
                         </figcaption>
                         </img>
                     </figure>
                 </li>
                 <li class="mb-4 sm:mb-0 sm:mr-4">
-                    <figure class="flex flex-col">
-                        <img class="" width="150vw" src="img/Untitled-1-07__1_-removebg-preview.png" alt="">
+                    <figure class="text-center flex flex-col">
+                        <img class="m-auto" width="150vw" src="img/Untitled-1-07__1_-removebg-preview.png" alt="">
                         <figcaption>Sunat Premium
                         </figcaption>
                         </img>
                     </figure>
                 </li>
                 <li class="mb-4 sm:mb-0 sm:mr-4">
-                    <figure class="flex flex-col">
-                        <img class="" width="150vw" src="img/Untitled-1-02__1_-removebg-preview.png" alt="">
+                    <figure class="text-center flex flex-col">
+                        <img class="m-auto" width="150vw" src="img/Untitled-1-02__1_-removebg-preview.png" alt="">
                         <figcaption>Sunat Dirumah
                         </figcaption>
                     </figure>
@@ -246,9 +253,10 @@
             </div>
     </div> -->
     <div class="container mx-auto">
-        <svg class="mx-auto">
-            <embed src="vector/Vector 14.svg" class="absolute z-0" type="" style="left: 0px; z-index: -1;">
-        </svg>
+        <img class="absolute z-0" style="left: 0px; z-index: -1;" src="vector/Vector 14.svg" alt="">
+        <!-- <svg class="mx-auto"> -->
+            <!-- <embed src="/vector/Vector 14.svg" class="absolute z-0" type="" style="left: 0px; z-index: -1;"> -->
+        <!-- </svg> -->
 
         <!-- <svg style="position: relative; display: block;">
             <div class="mx-auto">
@@ -351,7 +359,7 @@
 
                 <!-- Footer -->
 
-                <embed width="100%" class="md:w[inherit]" src="vector/layered-waves-haikei (1).svg" type="image/svg+xml">
+                <embed width="100%" class="md:w[inherit]" src="/backup/vector/layered-waves-haikei (1).svg" type="image/svg+xml">
                 <footer class="bg-white p-4">
                     <div class="container mx-auto flex flex-col md:flex-row justify-between">
                         <div class="md:w-1/3">
