@@ -155,6 +155,14 @@ right: 0px;
 }
 
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 999px) {
+    .embed-media{
+        width: 40%;
+    }
+    .ul-align-center{
+        text-align: center;
+    }
+}
 @media only screen and (max-width: 600px) {
     
     .embed-media{
@@ -178,4 +186,3 @@ right: 0px;
         width: inherit !important;
     }
 }
-
