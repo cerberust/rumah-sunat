@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root{
     --fff--: #ffff;
     --000--: #000;
@@ -10,12 +11,18 @@
     --stroke-color: #fcb281;
     --height-dod-pc: 200px;
     --height-dod-mobile: 120px;
+    /* Gunmetal 0F232F*/
 }
 
 .flex-row{
     display: flex;
     justify-content: safe;
     flex-direction: row;
+}
+.flex-row_sa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .flex-column{
     display: flex;
@@ -44,19 +51,21 @@
 }
 body{
     background-color: var(--background-main);
-    color: aliceblue !important;
+    color: 0F232F !important;
     overflow-x: hidden;
+    font-family: 'Bree Serif', serif;
+
 }
 nav{
     background-color: var(--stroke-color) !important;
     /* border-bottom: var(--stroke-color) 5px solid; */
 }
 .sc-brand-nav{
-    color: aliceblue;
+    color: #0F232F;
     font-family: 'Bree Serif', serif;
 }
 .nav-link-c{
-    color: aliceblue;
+    color: #0F232F;
 }
 .header-section{
     position: relative;
@@ -121,14 +130,14 @@ span.text-welcome{
     text-align: center;
     font-size: 60px;
     font-family: 'Fredoka One', cursive;
-    color: aliceblue;
+    color: #0F232F;
     /* font-weight: lighter; */
 }
 span.text-explain{
     text-align: center;
     font-size: 20px;
     font-family: 'Fredoka One', cursive;
-    color: aliceblue;
+    color: #0F232F;
 }.article-section{
     position: relative;
     display: block;
@@ -155,6 +164,10 @@ span.text-explain{
     font-family: 'Noto Sans Arabic', cursive;
     font-size: 28px;
 }
+.pelayanan-sunat-mainan{
+    height: 200px;
+    background-color: rgb(252, 179, 131);
+}
 .pelayanan-sunat{
     background-color: rgb(252, 179, 131);
     border-radius: 60px;
@@ -162,4 +175,35 @@ span.text-explain{
     -moz-border-radius: 60px;
     -ms-border-radius: 60px;
     -o-border-radius: 60px;
+}
+.label-hP{
+    font-family: 'Fredoka One', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.label-imgP{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.bg-fcb281{
+    background-color: var(--stroke-color);
+}
+
+.testimonial-card-font{
+    color: #0F232F;
+    font-weight: 600;
+}
+.testimonial-card-font-name{
+    color: var(--font-color);
+}
+@media only screen and (max-width: 768px) {
+    .flexR-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .img-R-ADS{
+        width: 100%;
+    }
 }
