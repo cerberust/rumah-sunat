@@ -267,3 +267,16 @@ span.text-explain{
     color: white;
     transform: rotateY(180deg);
   }
+
+@media only screen and (max-width: 600px) {
+    .flex_row_sa{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+    }
+    .flip-card{
+        background-color: #000 !important;
+        width: 120px !important;
+    height: 200px !important;
+    }
+}
