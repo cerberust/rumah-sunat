@@ -280,7 +280,7 @@ span.text-explain{
     height: 200px !important;
     }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 420px) {
     .flex_row_sa{
         display: flex;
         flex-direction: row !important;
