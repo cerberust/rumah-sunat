@@ -280,3 +280,15 @@ span.text-explain{
     height: 200px !important;
     }
 }
+@media only screen and (max-width: 440px) {
+    .flex_row_sa{
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+    }
+    .flip-card{
+        background-color: #000 !important;
+        width: 120px !important;
+    height: 200px !important;
+    }
+}
