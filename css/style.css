@@ -283,7 +283,7 @@ span.text-explain{
     height: 200px !important;
     }
 }
-@media only screen and (max-width: 424px) {
+@media only screen and (min-width:300px) and (max-width: 424px) {
     p{
         font-size: 12px;
     }
