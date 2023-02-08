@@ -200,7 +200,7 @@ span.text-explain{
 .testimonial-card-font-name{
     color: var(--font-color);
 }
-@media only screen (min-width:424px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .flexR-column{
         display: flex;
         flex-direction: column;
@@ -227,6 +227,7 @@ span.text-explain{
     margin: 0;
   }
   .title-explain{
+    color: var(--font-color);
     font-size: 0.9em;
     font-weight: 600;
   }
@@ -283,7 +284,7 @@ span.text-explain{
     height: 200px !important;
     }
 }
-@media only screen and (min-width:300px) and (max-width: 424px) {
+@media only screen and (max-width: 424px) {
     p{
         font-size: 12px;
     }
