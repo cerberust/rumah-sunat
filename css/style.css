@@ -16,7 +16,7 @@
 
 .flex-row{
     display: flex;
-    justify-content: safe;
+    justify-content: space-around;
     flex-direction: row;
 }
 .flex-row_sa{
@@ -26,7 +26,7 @@
 }
 .flex-column{
     display: flex;
-    justify-content: safe;
+    justify-content: space-between;
     flex-direction: column;
 }
 .contact-us{
@@ -51,7 +51,7 @@
 }
 body{
     background-color: var(--background-main);
-    color: 0F232F !important;
+    color: #0F232F !important;
     overflow-x: hidden;
     font-family: 'Bree Serif', serif;
 
